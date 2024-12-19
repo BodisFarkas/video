@@ -168,13 +168,17 @@ a {
 }
 
 @media screen and (max-width: 900px) {
+    .text {
+        font-size: 3rem;
+    }
+
     .overlay-content {
         top: 30%;
         padding-left: 3rem;
     }
 
     .overlay a {
-        font-size: 2rem;
-        line-height: 3.5rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 }
